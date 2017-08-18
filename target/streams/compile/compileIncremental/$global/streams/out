@@ -1,0 +1,65 @@
+[0m[[0mdebug[0m] [0m[naha] [0m
+[0m[[0mdebug[0m] [0m[naha] Initial source changes: [0m
+[0m[[0mdebug[0m] [0m[naha] 	removed:Set()[0m
+[0m[[0mdebug[0m] [0m[naha] 	added: Set(/home/pradeepr/codebase/scala-practice/src/main/scala/com/akka/getstarted/PrintIntsStream.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] 	modified: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidated products: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] External API changes: API Changes: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] Modified binary dependencies: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] Initial directly invalidated sources: Set(/home/pradeepr/codebase/scala-practice/src/main/scala/com/akka/getstarted/PrintIntsStream.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] [0m
+[0m[[0mdebug[0m] [0m[naha] Sources indirectly invalidated by:[0m
+[0m[[0mdebug[0m] [0m[naha] 	product: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] 	binary dep: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] 	external source: Set()[0m
+[0m[[0mdebug[0m] [0mAll initially invalidated sources: Set(/home/pradeepr/codebase/scala-practice/src/main/scala/com/akka/getstarted/PrintIntsStream.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] Initial set of included nodes: Set(/home/pradeepr/codebase/scala-practice/src/main/scala/com/akka/getstarted/PrintIntsStream.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] Recompiling all 1 sources: invalidated sources (1) exceeded 50.0% of all sources[0m
+[0m[[0minfo[0m] [0mCompiling 1 Scala source to /home/pradeepr/codebase/scala-practice/target/scala-2.11/classes...[0m
+[0m[[0mdebug[0m] [0mGetting org.scala-sbt:compiler-interface:0.13.16:component from component compiler for Scala 2.11.8[0m
+[0m[[0minfo[0m] [0m'compiler-interface' not yet compiled for Scala 2.11.8. Compiling...[0m
+[0m[[0mdebug[0m] [0mPlain interface to Scala compiler 2.11.8  with arguments: [0m
+[0m[[0mdebug[0m] [0m	-nowarn[0m
+[0m[[0mdebug[0m] [0m	-d[0m
+[0m[[0mdebug[0m] [0m	/tmp/sbt_46f6b8a4[0m
+[0m[[0mdebug[0m] [0m	-bootclasspath[0m
+[0m[[0mdebug[0m] [0m	/usr/lib/jvm/java-8-oracle/jre/lib/resources.jar:/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar:/usr/lib/jvm/java-8-oracle/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jsse.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jce.jar:/usr/lib/jvm/java-8-oracle/jre/lib/charsets.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jfr.jar:/usr/lib/jvm/java-8-oracle/jre/classes:/home/pradeepr/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.8.jar[0m
+[0m[[0mdebug[0m] [0m	-classpath[0m
+[0m[[0mdebug[0m] [0m	/home/pradeepr/.sbt/boot/scala-2.10.6/org.scala-sbt/sbt/0.13.16/xsbti/interface-0.13.16.jar:/tmp/sbt_764cdf/srcs/org.scala-sbt/compiler-interface/compiler-interface-0.13.16-sources.jar:/home/pradeepr/.ivy2/cache/org.scala-lang/scala-compiler/jars/scala-compiler-2.11.8.jar:/home/pradeepr/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.11.8.jar:/home/pradeepr/.ivy2/cache/org.scala-lang.modules/scala-xml_2.11/bundles/scala-xml_2.11-1.0.4.jar:/home/pradeepr/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.11/bundles/scala-parser-combinators_2.11-1.0.4.jar:/home/pradeepr/.ivy2/cache/jline/jline/jars/jline-2.12.1.jar[0m
+[0m[[0mdebug[0m] [0m	/tmp/sbt_3d8ac0d5/xsbt/API.scala[0m
+[0m[[0mdebug[0m] [0m	/tmp/sbt_3d8ac0d5/xsbt/Analyzer.scala[0m
+[0m[[0mdebug[0m] [0m	/tmp/sbt_3d8ac0d5/xsbt/Command.scala[0m
+[0m[[0mdebug[0m] [0m	/tmp/sbt_3d8ac0d5/xsbt/Compat.scala[0m
+[0m[[0mdebug[0m] [0m	/tmp/sbt_3d8ac0d5/xsbt/CompilerInterface.scala[0m
+[0m[[0mdebug[0m] [0m	/tmp/sbt_3d8ac0d5/xsbt/ConsoleInterface.scala[0m
+[0m[[0mdebug[0m] [0m	/tmp/sbt_3d8ac0d5/xsbt/DelegatingReporter.scala[0m
+[0m[[0mdebug[0m] [0m	/tmp/sbt_3d8ac0d5/xsbt/Dependency.scala[0m
+[0m[[0mdebug[0m] [0m	/tmp/sbt_3d8ac0d5/xsbt/ExtractAPI.scala[0m
+[0m[[0mdebug[0m] [0m	/tmp/sbt_3d8ac0d5/xsbt/ExtractUsedNames.scala[0m
+[0m[[0mdebug[0m] [0m	/tmp/sbt_3d8ac0d5/xsbt/GlobalHelpers.scala[0m
+[0m[[0mdebug[0m] [0m	/tmp/sbt_3d8ac0d5/xsbt/LocateClassFile.scala[0m
+[0m[[0mdebug[0m] [0m	/tmp/sbt_3d8ac0d5/xsbt/Log.scala[0m
+[0m[[0mdebug[0m] [0m	/tmp/sbt_3d8ac0d5/xsbt/Message.scala[0m
+[0m[[0mdebug[0m] [0m	/tmp/sbt_3d8ac0d5/xsbt/ScaladocInterface.scala[0m
+[0m[[0minfo[0m] [0m  Compilation completed in 11.654 s[0m
+[0m[[0mdebug[0m] [0mGetting org.scala-sbt:compiler-interface:0.13.16:component from component compiler for Scala 2.11.8[0m
+[0m[[0mdebug[0m] [0mRunning cached compiler 7fadab77, interfacing (CompilerInterface) with Scala compiler version 2.11.8[0m
+[0m[[0mdebug[0m] [0mCalling Scala compiler with arguments  (CompilerInterface):[0m
+[0m[[0mdebug[0m] [0m	-bootclasspath[0m
+[0m[[0mdebug[0m] [0m	/usr/lib/jvm/java-8-oracle/jre/lib/resources.jar:/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar:/usr/lib/jvm/java-8-oracle/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jsse.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jce.jar:/usr/lib/jvm/java-8-oracle/jre/lib/charsets.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jfr.jar:/usr/lib/jvm/java-8-oracle/jre/classes:/home/pradeepr/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.8.jar[0m
+[0m[[0mdebug[0m] [0m	-classpath[0m
+[0m[[0mdebug[0m] [0m	/home/pradeepr/codebase/scala-practice/target/scala-2.11/classes:/home/pradeepr/.ivy2/cache/com.typesafe.akka/akka-actor_2.11/jars/akka-actor_2.11-2.5.3.jar:/home/pradeepr/.ivy2/cache/com.typesafe/config/bundles/config-1.3.1.jar:/home/pradeepr/.ivy2/cache/org.scala-lang.modules/scala-java8-compat_2.11/bundles/scala-java8-compat_2.11-0.7.0.jar:/home/pradeepr/.ivy2/cache/com.typesafe.akka/akka-stream_2.11/jars/akka-stream_2.11-2.5.3.jar:/home/pradeepr/.ivy2/cache/org.reactivestreams/reactive-streams/jars/reactive-streams-1.0.0.jar:/home/pradeepr/.ivy2/cache/com.typesafe/ssl-config-core_2.11/bundles/ssl-config-core_2.11-0.2.1.jar:/home/pradeepr/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.11/bundles/scala-parser-combinators_2.11-1.0.4.jar[0m
+[0m[[0mdebug[0m] [0mScala compilation took 26.080136415 s[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidating /home/pradeepr/codebase/scala-practice/src/main/scala/com/akka/getstarted/PrintIntsStream.scala...[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidating (transitively) by inheritance from /home/pradeepr/codebase/scala-practice/src/main/scala/com/akka/getstarted/PrintIntsStream.scala...[0m
+[0m[[0mdebug[0m] [0m[naha] Initial set of included nodes: Set(/home/pradeepr/codebase/scala-practice/src/main/scala/com/akka/getstarted/PrintIntsStream.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidated by transitive inheritance dependency: Set(/home/pradeepr/codebase/scala-practice/src/main/scala/com/akka/getstarted/PrintIntsStream.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] The /home/pradeepr/codebase/scala-practice/src/main/scala/com/akka/getstarted/PrintIntsStream.scala source file has the following implicit definitions changed:[0m
+[0m[[0mdebug[0m] [0m[naha] 	materializer, system.[0m
+[0m[[0mdebug[0m] [0m[naha] All member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0m[naha] New invalidations:[0m
+[0m[[0mdebug[0m] [0m[naha] 	Set()[0m
+[0m[[0mdebug[0m] [0m[naha] Initial set of included nodes: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] Previously invalidated, but (transitively) depend on new invalidations:[0m
+[0m[[0mdebug[0m] [0m[naha] 	Set()[0m
+[0m[[0mdebug[0m] [0m[naha] All newly invalidated sources after taking into account (previously) recompiled sources:Set()[0m
