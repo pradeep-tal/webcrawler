@@ -1,6 +1,6 @@
 package com.webcrawler.model
 
-class Mail(var messageId: String, var from: String,var subject: String, var date: String, var messageBody: String) {
+class Mail(val messageId: String, val from: String,val subject: String, val date: String, val messageBody: String) {
 
   def this() {
     this("", "", "", "", "");

@@ -17,7 +17,7 @@ object ETLMails extends App {
     val urlArchives = "http://mail-archives.apache.org/mod_mbox/maven-users/";
     val keyValMails: Regex = "(From|Date|Message-ID|Subject): ([0-9a-zA-Z-#()<>\"\"@.,:$-+=_? ]+)".r
 
-    val m = new Mail
+    var from, date, message_id, subject, messageBody = "";
 
     for (patternMatch <- keyValMails.findAllMatchIn(indMail)) {
 
@@ -28,34 +28,33 @@ object ETLMails extends App {
       //println(s"Key=${key} AND value=${value}")
 
       key.trim().toLowerCase() match {
-        case "from" => m.from = value
-        case "date" => m.date = value
-        case "message-id" => m.messageId = value
-        case "subject" => m.subject = value
+        case "from" => from = value
+        case "date" => date = value
+        case "message-id" => message_id = value
+        case "subject" => subject = value
         case x => println("Not valid " + x);
       }
     }
 
-    if (m.messageId != "") {
+    if (message_id != "") {
 
       try {
 
-        val url = urlArchives + fileName + "/raw/" + m.messageId + "/";
+        val url = urlArchives + fileName + "/raw/" + message_id + "/";
 
         println(url);
 
         val body = Source.fromURL(url).mkString
 
-        m.messageBody = body
+        messageBody = body
 
       } catch {
         case e: MalformedInputException => println(e.getMessage); None
       }
 
-      Some(m)
+      Some(new Mail(message_id, from, subject, date, messageBody))
 
-    }else
-    {
+    } else {
       None
     }
 

@@ -54,7 +54,7 @@ object WriteToSource {
 
       val l = ListBuffer.empty[Mail]
 
-      for (fileName <- files if fileName.startsWith("201707")) {
+      for (fileName <- files if fileName.startsWith("201705")) {
 
         try {
           val mbox = Source.fromURL(urlArchives + fileName).mkString
@@ -92,8 +92,7 @@ object WriteToSource {
 
     }
 
-    DBs.closeAll()
-
+    DBsWithEnv("prod").closeAll()
   }
 
   def apply(stype: String) = {

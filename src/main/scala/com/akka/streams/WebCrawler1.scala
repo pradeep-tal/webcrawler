@@ -18,13 +18,13 @@ object WebCrawler1 extends App {
 
   val filterIn = urlget.split("[\\r\\n]+").toSeq.toList.filter(x => x.contains("mbox/date"));
 
-  val gethref = filterIn.flatMap(x => x.split("&middot;").
-    filter(x => x.contains("mbox/date"))).
+  val listOfMailBox = filterIn.flatMap(_.split("&middot;").
+    filter(_.contains("mbox/date"))).
     map { x =>
       x.replace("/date\">Date</a>", "").
         replace("<a href=\"", "").trim()
     }
   
-  WriteToSource(opSource).write(gethref);
+  WriteToSource(opSource).write(listOfMailBox);
 
 }
