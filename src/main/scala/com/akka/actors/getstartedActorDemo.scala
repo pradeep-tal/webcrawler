@@ -1,8 +1,9 @@
-package com.akka
+package com.akka.actors
 
 import akka.actor.ActorSystem
 import akka.actor.Props
 import akka.actor.Actor
+import akka.actor.actorRef2Scala
 
 object getstartedActorDemo extends App {
 

@@ -1,4 +1,4 @@
-package com.akka.streams
+package com.webcrawler.util
 
 import scala.io.Source
 import scala.collection.mutable.ListBuffer

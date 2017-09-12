@@ -1,13 +1,5 @@
-package com.akka.streams
+package com.webcrawler
 
-import akka.stream.scaladsl.FileIO
-import java.nio.file.Paths
-import akka.util.ByteString
-import java.nio.file.Path
-import com.akka.getstarted.WriteToFile
-import scala.concurrent.Future
-import akka.stream.IOResult
-import akka.stream.scaladsl.Keep
 import akka.actor.ActorSystem
 import akka.stream.ActorMaterializer
 

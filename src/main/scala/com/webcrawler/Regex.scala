@@ -1,4 +1,4 @@
-package com.akka.streams
+package com.webcrawler
 
 object Regex extends App {
 

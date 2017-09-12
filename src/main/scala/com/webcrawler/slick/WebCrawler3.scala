@@ -1,6 +1,6 @@
 package com.webcrawler.slick
 
-import com.akka.streams.MailSaveDAO
+import com.webcrawler.dao.MailSaveDAO
 
 object WebCrawler3 extends App {
 

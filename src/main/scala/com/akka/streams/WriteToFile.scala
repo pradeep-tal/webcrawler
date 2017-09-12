@@ -1,4 +1,4 @@
-package com.akka.getstarted
+package com.akka.streams
 
 import akka.stream._
 import akka.stream.scaladsl._
@@ -6,8 +6,9 @@ import akka.NotUsed
 import akka.actor.ActorSystem
 import akka.util.ByteString
 import java.nio.file.Paths
-import akka.compat.Future
 import scala.concurrent.Future
+import scala.BigInt
+import scala.math.BigInt.int2bigInt
 
 object WriteToFile extends App {
 

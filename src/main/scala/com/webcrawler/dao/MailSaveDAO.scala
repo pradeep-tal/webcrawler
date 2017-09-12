@@ -1,8 +1,6 @@
-package com.akka.streams
+package com.webcrawler.dao
 
 import slick.jdbc.MySQLProfile.api._
-
-import scala.concurrent.ExecutionContext.Implicits.global
 import scala.collection.mutable.ListBuffer
 import com.webcrawler.model.Mail
 import scala.io.Source

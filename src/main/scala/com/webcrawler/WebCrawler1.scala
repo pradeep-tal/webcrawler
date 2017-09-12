@@ -1,14 +1,11 @@
-package com.akka.streams
-
-import akka.stream.scaladsl.Source
-import java.io.PrintWriter
-import java.io.File
+package com.webcrawler
 
 object WebCrawler1 extends App {
 
   import scala.io.Source
 
-  val urlArchives = "http://mail-archives.apache.org/mod_mbox/maven-users/";
+  val urlArchives = "ht
+import com.webcrawler.WriteToSourcetp://mail-archives.apache.org/mod_mbox/maven-users/";
 
   val opSource = args(0)
 

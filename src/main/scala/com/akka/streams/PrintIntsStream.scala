@@ -1,4 +1,4 @@
-package com.akka.getstarted
+package com.akka.streams
 
 import akka.stream._
 import akka.stream.scaladsl._

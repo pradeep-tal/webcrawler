@@ -1,4 +1,4 @@
-package com.akka.streams
+package com.webcrawler
 
 import java.io.PrintWriter
 import java.io.File
@@ -7,10 +7,11 @@ import scala.collection.mutable.ListBuffer
 import com.webcrawler.model.Mail
 import scalikejdbc.config.DBsWithEnv
 import scalikejdbc.DB
-
 import scalikejdbc.config._
 import scalikejdbc._
 import java.nio.charset.MalformedInputException
+import com.webcrawler.util.ETLMails
+import com.webcrawler.util.ETLMails
 
 trait WriteToSource {
 
