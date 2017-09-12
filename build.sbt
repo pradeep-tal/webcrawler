@@ -17,4 +17,10 @@ libraryDependencies ++= Seq(
   
   "org.scalikejdbc" %% "scalikejdbc-config"  % "3.0.2",
  
+  "com.typesafe.slick" % "slick_2.11" % "3.2.1",
+
+  "org.slf4j" % "slf4j-simple" % "1.7.25",
+
+  "org.slf4j" % "slf4j-api" % "1.7.25"
+  
 )
