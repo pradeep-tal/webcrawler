@@ -5,6 +5,7 @@ import scala.collection.mutable.ListBuffer
 import scala.annotation.tailrec
 import com.webcrawler.model.Mail
 import java.nio.charset.MalformedInputException
+import java.net.ConnectException
 
 object ETLMails extends App {
 
@@ -42,7 +43,7 @@ object ETLMails extends App {
 
         val url = urlArchives + fileName + "/raw/" + message_id + "/";
 
-        println(url);
+        //println(url);
 
         val body = Source.fromURL(url).mkString
 
@@ -50,6 +51,7 @@ object ETLMails extends App {
 
       } catch {
         case e: MalformedInputException => println(e.getMessage); None
+        case e:ConnectException=>println(e.getMessage);None
       }
 
       Some(new Mail(message_id, from, subject, date, messageBody))
