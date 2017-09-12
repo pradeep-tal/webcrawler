@@ -5,6 +5,7 @@ import scala.collection.mutable.ListBuffer
 import com.webcrawler.model.Mail
 import scala.io.Source
 import java.nio.charset.MalformedInputException
+import com.webcrawler.util.ETLMails
 
 class MailSaveDAO  {
 
